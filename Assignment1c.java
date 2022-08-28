@@ -4,7 +4,7 @@ Section: WJ1
 Term: Fall 2022
 Instructor: Nick Murphy
 Name: Adam Hutcheson
-Lab#: 1B
+Lab#: 1C
 */
 import java.util.Scanner;
 public class Assignment1c {
