@@ -13,6 +13,6 @@ public class Lab1B {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a line of text: ");
         message = scan.nextLine();
-        System.out.println("You wrote \"" + message + "\"");
+        System.out.println("You wrote \'" + message + "\'");
     }
 }
