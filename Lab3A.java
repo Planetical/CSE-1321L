@@ -12,7 +12,7 @@ import java.util.Scanner;
 class Lab3A {
   public static void main(String[] args) {
 
-    System.out.println("Amount owed:");
+    System.out.println("Amount owed: $");
     Scanner sc = new Scanner(System.in);
     float amOwed = sc.nextFloat();
 
