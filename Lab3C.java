@@ -1,3 +1,4 @@
+
 /*
 Class: CSE 1321L
 Section: WJ1
@@ -7,43 +8,43 @@ Name: Adam Hutcheson
 Lab#: 3C
  */
 import java.util.Scanner;
+import java.lang.Math;
 
-class Lab3C {
+public class Lab3C {
   public static void main(String[] args) {
 
-    final float QUARTER_VALUE = 0.25f;
-    final float DIME_VALUE = 0.05f;
-    final float NICKEL_VALUE = 0.10f;
-    final float PENNIES_VALUE = 0.01f;
-
-    System.out.println("Enter the number of quarters:");
+    System.out.println("Enter the number of quarters: ");
     Scanner sc = new Scanner(System.in);
-    int numQuarters = sc.nextInt();
+    int quarters = sc.nextInt();
 
-    System.out.println("Enter the number of dimes:");
-    int numDimes = sc.nextInt();
+    System.out.println("Enter the number of dimes: ");
+    int dimes = sc.nextInt();
 
-    System.out.println("Enter the number of nickels:");
-    int numNickels = sc.nextInt();
+    System.out.println("Enter the number of nickels: ");
+    int nickels = sc.nextInt();
 
-    System.out.println("Enter the number of pennies:");
-    int numPennies = sc.nextInt();
+    System.out.println("Enter the number of pennies: ");
+    int pennies = sc.nextInt();
 
-    System.out.println("\nYou entered " + numQuarters + " quarters.");
-    System.out.println("You entered " + numDimes + " dimes.");
-    System.out.println("You entered " + numNickels + " nickels.");
-    System.out.println("You entered " + numPennies + " pennies.");
+    float QUARTER_VALUE = 0.25f;
+    float DIME_VALUE = 0.10f;
+    float NICKEL_VALUE = 0.05f;
+    float PENNY_VALUE = 0.01f;
 
-    float totalQuarters = QUARTER_VALUE * (float) numQuarters;
-    float totalDimes = DIME_VALUE * (float) numDimes;
-    float totalNickels = NICKEL_VALUE * (float) numNickels;
-    float totalPennies = PENNIES_VALUE * (float) numPennies;
-    float total = totalQuarters + totalDimes + totalNickels + totalPennies;
+    float totalQuarters = quarters * QUARTER_VALUE;
+    float totalDimes = dimes * DIME_VALUE;
+    float totalNickel = nickels * NICKEL_VALUE;
+    float totalPenny = pennies * PENNY_VALUE;
+    float total = totalQuarters + totalNickel + totalDimes + totalPenny;
+
+    System.out.println("\nYou entered " + quarters + " quarters.");
+    System.out.println("You entered " + dimes + " dimes.");
+    System.out.println("You entered " + nickels + " nickels.");
+    System.out.println("You entered " + pennies + " pennies.");
+
     int dollars = (int) total;
-    float cents = total%100;
-
-                    
-    System.out.println("\nYour total is " + dollars + " dollars and " + cents + " cents.");
+    float cents = ((total * 100) % 100);
+    System.out.println("Your total is " + dollars + " dollars and " + (Math.round(cents)) + " cents.");
 
   }
 }
