@@ -14,28 +14,28 @@ class Lab3B {
     float gradeOne, gradeTwo, gradeThree, gradeFour;
     float qualityOne, qualityTwo, qualityThree, qualityFour;
 
-    System.out.println("Course 1 hours:");
+    System.out.print("Course 1 hours:");
     Scanner sc = new Scanner(System.in);
     hourOne = sc.nextFloat();
-    System.out.println("Grade for course 1:");
+    System.out.print("Grade for course 1:");
     gradeOne = sc.nextFloat();
     qualityOne = hourOne * gradeOne;
 
-    System.out.println("Course 2 hours:");
+    System.out.print("Course 2 hours:");
     hourTwo = sc.nextFloat();
-    System.out.println("Grade for course 2:");
+    System.out.print("Grade for course 2:");
     gradeTwo = sc.nextFloat();
     qualityTwo = hourTwo * gradeTwo;
 
-    System.out.println("Course 3 hours:");
+    System.out.print("Course 3 hours:");
     hourThree = sc.nextFloat();
-    System.out.println("Grade for course 3");
+    System.out.print("Grade for course 3");
     gradeThree = sc.nextFloat();
     qualityThree = hourThree * gradeThree;
 
-    System.out.println("Course 4 hours:");
+    System.out.print("Course 4 hours:");
     hourFour = sc.nextFloat();
-    System.out.println("Grade for course 4:");
+    System.out.print("Grade for course 4:");
     gradeFour = sc.nextFloat();
     qualityFour = hourFour * gradeFour;
 
