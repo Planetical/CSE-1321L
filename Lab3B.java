@@ -29,7 +29,7 @@ class Lab3B {
 
     System.out.print("Course 3 hours: ");
     hourThree = sc.nextFloat();
-    System.out.print("Grade for course 3 ");
+    System.out.print("Grade for course 3: ");
     gradeThree = sc.nextFloat();
     qualityThree = hourThree * gradeThree;
 
