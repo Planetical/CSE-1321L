@@ -46,6 +46,6 @@ class Lab3B {
     System.out.println("Total quality points is: " + totalQuality);
 
     float GPA = totalQuality / totalHour;
-    System.out.println("Your total GPA for this semester is " + GPA);
+    System.out.println("Your GPA for this semester is " + GPA);
   }
 }
