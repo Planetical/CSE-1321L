@@ -1,3 +1,11 @@
+/*
+Class: 1321L
+Section: WJ1
+Term: Fall 2022
+Instructor: Nick Murphy
+Name: Adam Hutcheson
+Lab#: 5A
+ */
 import java.util.Scanner;
 public class Lab5A {
     public static void main(String[] args) {
