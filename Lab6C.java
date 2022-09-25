@@ -1,3 +1,11 @@
+/*
+Class: 1321L
+Section: WJ1
+Term: Fall 2022
+Instructor: Nick Murphy
+Name: Adam Hutcheson
+Lab#: 6C
+ */
 import java.util.Scanner;
 public class Lab6C {
     public static void main(String[] args) {
@@ -35,9 +43,10 @@ public class Lab6C {
                     System.out.println("Invalid entry, please try again.");
                     break;
             }
-            System.out.println("Would you like to return to the main menu (Y/N?) : ");
+            System.out.println("Would you like to return to the main menu (Y/N)? : ");
             input = sc.next();
 
         } while (input.equalsIgnoreCase("y"));
+        System.out.println("Thank you for banking with us!");
     }
 }

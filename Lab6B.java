@@ -1,3 +1,11 @@
+/*
+Class: 1321L
+Section: WJ1
+Term: Fall 2022
+Instructor: Nick Murphy
+Name: Adam Hutcheson
+Lab#: 6B
+ */
 import java.util.Random;
 import java.util.Scanner;
 public class Lab6B {
