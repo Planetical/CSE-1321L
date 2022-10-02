@@ -1,3 +1,11 @@
+/*
+Class: CSE 1321L
+Section: WJ1
+Term: Fall 2022
+Instructor: Nick Murphy
+Name: Adam Hutcheson
+Assignment#: 4B
+ */
 import java.util.Scanner;
 import java.lang.Math;
 public class Assignment4B {
