@@ -13,15 +13,15 @@ public class Lab8A {
         int[] first; first = new int [5];
         int[] second; second = new int [5];
         Scanner sc = new Scanner (System.in);
-
+        System.out.println("Please enter 5 integers for the first array:");
         for (int i = 0; i < 5; i++) {
-            System.out.println("Please enter 5 integers for the first array:");
+
             System.out.println("Integer " + (i + 1) + ": ");
             first[i] = sc.nextInt();
         }
-
+        System.out.println("Please enter 5 integers for the second array:");
         for (int i2 = 0; i2 < 5; i2++) {
-            System.out.println("Please enter 5 integers for the second array:");
+
             System.out.println("Integer " + (i2 + 1) + ": ");
             second[i2] = sc.nextInt();
         }

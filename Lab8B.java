@@ -16,7 +16,7 @@ public class Lab8B {
         int columns = sc.nextInt();
 
         int spaces = rows * columns;
-        System.out.println("\nI have " + rows + " and " + columns + " columns. I need to fill-up " + spaces + " spaces.");
+        System.out.println("\nI have " + rows + " rows and " + columns + " columns. I need to fill-up " + spaces + " spaces.");
         System.out.println("\nThe " + rows + "x" + columns + " array:");
 
         int[][] array = new int[rows][columns];
