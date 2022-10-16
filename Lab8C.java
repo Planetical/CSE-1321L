@@ -32,7 +32,7 @@ public class Lab8C {
             System.out.println();
         }
 
-        System.out.println("\nThe " + rows + "x" + columns + " 2-D array flattened into a 16 cell 1-D array:");
+        System.out.println("\nThe " + rows + "x" + columns + " 2-D array flattened into a " + spaces + " cell 1-D array:");
 
         for (int k = 0; k < spaces; k++) {
             System.out.print((k + 1) + "|");
