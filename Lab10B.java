@@ -34,7 +34,7 @@ public class Lab10B {
     }
     public static boolean isValid(double width,double height) {
         boolean valid = true;
-        double total = width * height;
+        double total = width + height;
         if (total < 30) {
             valid = false;
         }
