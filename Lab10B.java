@@ -30,6 +30,7 @@ public class Lab10B {
             }
 
         } while (quit == false);
+        System.out.println("Program Ends");
     }
     public static boolean isValid(double width,double height) {
         boolean valid = true;

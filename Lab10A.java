@@ -13,7 +13,7 @@ public class Lab10A {
 
         System.out.println("Min is " + result1);
         System.out.println("Max is " + result2);
-        System.out.println("Average is " + result3);
+        System.out.println("Average is " + (int)result3);
     }
     public static int min(int num1, int num2) {
         int minimum = 0;
