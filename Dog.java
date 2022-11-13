@@ -18,12 +18,13 @@ public class Dog {
     }
 
     public String rename(String newName) {
-        name = newName;
-        return name;
+        String changedName;
+        changedName = newName;
+        return changedName;
     }
 
     public double eat(double eat, double weight) {
-        weight+=eat;
-        return weight;
+        double changedWeight = weight+=eat;
+        return changedWeight;
     }
 }
