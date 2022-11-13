@@ -24,7 +24,7 @@ public class Lab12A {
         System.out.println("\nYour chair has " + chair1.numOfLegs + " legs, " + "is " + rollingStatus + ", and is made of " + chair1.material + ".");
         System.out.println("\nThis program is going to change that.");
 
-        numofLegs = 4; rolling = false; material = "plastic";
+        numofLegs = 4; rolling = false; material = "wood";
         chair1 = new Chair(numofLegs,rolling,material);
         if (chair1.rolling == false) {
             rollingStatus = "not rolling";
